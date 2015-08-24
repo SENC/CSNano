@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 
@@ -192,7 +192,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="1.-What-is-the-independent-variable-in-the-experiment?">1. What is the independent variable in the experiment?<a class="anchor-link" href="#1.-What-is-the-independent-variable-in-the-experiment?">&#182;</a></h4><p>Chopsticks length is the independendant variable in this experiment since based on its value food pinching value varies</p>
+<h4 id="1.-What-is-the-independent-variable-in-the-experiment?">1. What is the independent variable in the experiment?<a class="anchor-link" href="#1.-What-is-the-independent-variable-in-the-experiment?">&#182;</a></h4><p>Chopstick length is the independent varibale or preditcor variable</p>
 
 </div>
 </div>
@@ -202,7 +202,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="2.-What-is-the-dependent-variable-in-the-experiment?">2. What is the dependent variable in the experiment?<a class="anchor-link" href="#2.-What-is-the-dependent-variable-in-the-experiment?">&#182;</a></h4><p>Dependent variable is Food.Pinching.Efficiency</p>
+<h4 id="2.-What-is-the-dependent-variable-in-the-experiment?">2. What is the dependent variable in the experiment?<a class="anchor-link" href="#2.-What-is-the-dependent-variable-in-the-experiment?">&#182;</a></h4><p>Food pinching Efficiency</p>
 
 </div>
 </div>
@@ -212,7 +212,7 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="3.-How-is-the-dependent-variable-operationally-defined?">3. How is the dependent variable operationally defined?<a class="anchor-link" href="#3.-How-is-the-dependent-variable-operationally-defined?">&#182;</a></h4><p>Average food pinching efficiency based on chipstick length</p>
+<h4 id="3.-How-is-the-dependent-variable-operationally-defined?">3. How is the dependent variable operationally defined?<a class="anchor-link" href="#3.-How-is-the-dependent-variable-operationally-defined?">&#182;</a></h4><p>Counting the number of peanuts picked and placed in a cup</p>
 
 </div>
 </div>
@@ -222,7 +222,10 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="4.-Based-on-the-description-of-the-experiment-and-the-data-set,-list-at-least-two-variables-that-you-know-were-controlled.">4. Based on the description of the experiment and the data set, list at least two variables that you know were controlled.<a class="anchor-link" href="#4.-Based-on-the-description-of-the-experiment-and-the-data-set,-list-at-least-two-variables-that-you-know-were-controlled.">&#182;</a></h4><p>Think about the participants who generated the data and what they have in common. You don't need to guess any variables or read the full paper to determine these variables. (For example, it seems plausible that the material of the chopsticks was held constant, but this is not stated in the abstract or data description.)</p>
+<h4 id="4.-Based-on-the-description-of-the-experiment-and-the-data-set,-list-at-least-two-variables-that-you-know-were-controlled.">4. Based on the description of the experiment and the data set, list at least two variables that you know were controlled.<a class="anchor-link" href="#4.-Based-on-the-description-of-the-experiment-and-the-data-set,-list-at-least-two-variables-that-you-know-were-controlled.">&#182;</a></h4><p>[1] The food took for this study "Peanuts" ,
+[2] Gender of the participant (Male junior college students), 
+[3] Category (adult and children) and
+[4] 6 different Chopstick length</p>
 
 </div>
 </div>
@@ -239,7 +242,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
@@ -256,10 +259,11 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">path</span> <span class="o">=</span> <span class="s">r&#39;~E:/Machine Learning/Nano Degree/chopstick-effectiveness.csv&#39;</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">path</span><span class="o">=</span><span class="s">r&#39;E:/Machine Learning/Nano Degree/Nano Project 0/chopstick-effectiveness.csv&#39;</span>
+<span class="c">#path = r&#39;~/Downloads/chopstick-effectiveness.csv&#39;</span>
 <span class="c"># Change the path to the location where the chopstick-effectiveness.csv file is located on your computer.</span>
 <span class="c"># If you get an error when running this block of code, be sure the chopstick-effectiveness.csv is located at the path on your computer.</span>
 
@@ -275,7 +279,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[2]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -679,7 +683,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="n">dataFrame</span><span class="p">[</span><span class="s">&#39;Food.Pinching.Efficiency&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
@@ -693,7 +697,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[5]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[3]:</div>
 
 
 <div class="output_text output_subarea output_execute_result">
@@ -718,12 +722,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span class="n">meansbyChopSticklen</span><span class="o">=</span><span class="n">dataFrame</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s">&#39;Chopstick.Length&#39;</span><span class="p">)[</span><span class="s">&#39;Food.Pinching.Efficiency&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
-<span class="n">meansbyChopSticklen</span>
-<span class="n">meansByChopstickLength</span> <span class="o">=</span> <span class="n">dataFrame</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s">&#39;Chopstick.Length&#39;</span><span class="p">)[</span><span class="s">&#39;Food.Pinching.Efficiency&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
+<div class=" highlight hl-ipython2"><pre><span class="n">meansByChopstickLength</span> <span class="o">=</span> <span class="n">dataFrame</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s">&#39;Chopstick.Length&#39;</span><span class="p">)[</span><span class="s">&#39;Food.Pinching.Efficiency&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span>
 <span class="n">meansByChopstickLength</span>
 
 <span class="c"># reset_index() changes Chopstick.Length from an index to column. Instead of the index being the length of the chopsticks, the index is the row numbers 0, 1, 2, 3, 4, 5.</span>
@@ -737,7 +739,7 @@ div#notebook {
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">Out[10]:</div>
+<div class="output_area"><div class="prompt output_prompt">Out[4]:</div>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <div>
@@ -796,13 +798,14 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="5.-Which-chopstick-length-performed-the-best-for-the-group-of-thirty-one-male-junior-college-students?">5. Which chopstick length performed the best for the group of thirty-one male junior college students?<a class="anchor-link" href="#5.-Which-chopstick-length-performed-the-best-for-the-group-of-thirty-one-male-junior-college-students?">&#182;</a></h4>
+<h4 id="5.-Which-chopstick-length-performed-the-best-for-the-group-of-thirty-one-male-junior-college-students?">5. Which chopstick length performed the best for the group of thirty-one male junior college students?<a class="anchor-link" href="#5.-Which-chopstick-length-performed-the-best-for-the-group-of-thirty-one-male-junior-college-students?">&#182;</a></h4><p>240 is the best /optimal lengh where food pinching performance average is high as 26.322 compared to others</p>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span class="c"># Causes plots to display within the notebook rather than in a new window</span>
@@ -1031,8 +1034,7 @@ RU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h5 id="6.-Based-on-the-scatterplot-created-from-the-code-above,-interpret-the-relationship-you-see.-What-do-you-notice?">6. Based on the scatterplot created from the code above, interpret the relationship you see. What do you notice?<a class="anchor-link" href="#6.-Based-on-the-scatterplot-created-from-the-code-above,-interpret-the-relationship-you-see.-What-do-you-notice?">&#182;</a></h5><p>From the plot, can see initial 3 data points have linear regression but after its differ in pattern .this chart likely a normal distribution with mean 230 mm as the highest pinching efficiency and after that negative regression.</p>
-
+<h4 id="6.-Based-on-the-scatterplot-created-from-the-code-above,-interpret-the-relationship-you-see.-What-do-you-notice?">6. Based on the scatterplot created from the code above, interpret the relationship you see. What do you notice?<a class="anchor-link" href="#6.-Based-on-the-scatterplot-created-from-the-code-above,-interpret-the-relationship-you-see.-What-do-you-notice?">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -1041,8 +1043,10 @@ RU5ErkJggg==
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="In-the-abstract-the-researchers-stated-that-their-results-showed-food-pinching-performance-was-significantly-affected-by-the-length-of-the-chopsticks,-and-that-chopsticks-of-about-240-mm-long-were-optimal-for-adults.">In the abstract the researchers stated that their results showed food-pinching performance was significantly affected by the length of the chopsticks, and that chopsticks of about 240 mm long were optimal for adults.<a class="anchor-link" href="#In-the-abstract-the-researchers-stated-that-their-results-showed-food-pinching-performance-was-significantly-affected-by-the-length-of-the-chopsticks,-and-that-chopsticks-of-about-240-mm-long-were-optimal-for-adults.">&#182;</a></h3><h4 id="7a.-Based-on-the-data-you-have-analyzed,-do-you-agree-with-the-claim?">7a. Based on the data you have analyzed, do you agree with the claim?<a class="anchor-link" href="#7a.-Based-on-the-data-you-have-analyzed,-do-you-agree-with-the-claim?">&#182;</a></h4><p>Yes agree for this set of sample alone.</p>
-<h4 id="7b.-Why?">7b. Why?<a class="anchor-link" href="#7b.-Why?">&#182;</a></h4><p>The average (mean) value is 25. From the scatter plot could see for te first 3 data points there is a linear regression but after the data was scatterd.. with the increased length can clearly see nagative regression line</p>
+<h3 id="In-the-abstract-the-researchers-stated-that-their-results-showed-food-pinching-performance-was-significantly-affected-by-the-length-of-the-chopsticks,-and-that-chopsticks-of-about-240-mm-long-were-optimal-for-adults.">In the abstract the researchers stated that their results showed food-pinching performance was significantly affected by the length of the chopsticks, and that chopsticks of about 240 mm long were optimal for adults.<a class="anchor-link" href="#In-the-abstract-the-researchers-stated-that-their-results-showed-food-pinching-performance-was-significantly-affected-by-the-length-of-the-chopsticks,-and-that-chopsticks-of-about-240-mm-long-were-optimal-for-adults.">&#182;</a></h3><h4 id="7a.-Based-on-the-data-you-have-analyzed,-do-you-agree-with-the-claim?">7a. Based on the data you have analyzed, do you agree with the claim?<a class="anchor-link" href="#7a.-Based-on-the-data-you-have-analyzed,-do-you-agree-with-the-claim?">&#182;</a></h4><p>Yes with the cavet only for this set of groups. There cud be different in performance between people from different region  for example south asian (Indian) food picking performance is very low compared to people who born and brought up using Chopstick for example chinese</p>
+<h4 id="7b.-Why?">7b. Why?<a class="anchor-link" href="#7b.-Why?">&#182;</a></h4><p>With this scatter plot, could clearly see initial 3 data points give postive corelation on food (peanuts) pinching performance. Could infer 240 mm lengh chopstick  yiedls a optimal food pinching performance as 26.32. but further increase in chopstick length gets the avergae food pinching perfomance to less compared to 240mm's average.With the 330mm lengh clearly infer the food pinching perofmance average was very low (23.99) compared to all data points.
+so can say food pinching performance significantly affected by the length of teh chopsticks.
+ just to add on , other Extraneous factor (Lurking varibale) would have more impact on the study- kind of food if its noodles and peanuts, more number of Adult and children ,is particpants left hander , is it first timer or born and brought up in the environment.</p>
 
 </div>
 </div>
